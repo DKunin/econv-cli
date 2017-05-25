@@ -1,15 +1,15 @@
-# Title
-
-> This is an example file with default selections.
+# Econv Cli
 
 ## Install
 
 ```
+npm i econv-cli -g
 ```
 
 ## Usage
 
 ```
+econv 20 usd rub // amount from top
 ```
 
 ## Contribute
@@ -18,4 +18,4 @@ PRs accepted.
 
 ## License
 
-MIT © Richard McRichface
+MIT © Dmitri Kunin
