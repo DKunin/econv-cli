@@ -49,7 +49,10 @@ if (process.stdout.isTTY) {
 econv.apply(null, cli.input).then(result => {
     data = {
         isDone: true,
-        result: result + ' ' + cli.input[2]
+        result: result + ' ' + cli.input[1]
     };
+    exit();
+}).catch(err => {
+    console.log(err);
     exit();
 });
